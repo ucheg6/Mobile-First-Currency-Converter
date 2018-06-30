@@ -28,11 +28,13 @@ input {
 }
 
 .form-control {
-    width:108%
+    width:108%;
+    margin-left:-10px
 }
 
 .btn {
-    margin-top: 20px
+    margin-top: 20px;
+    margin-left:-10px
 }
 
 @media only screen and (max-width: 760px),
@@ -43,5 +45,26 @@ input {
 
     .form-control {
         width:70%
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+ {
+    body .container {
+        margin:80px 230px;
+    }
+
+    .form-control {
+        width:110%
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1336px)
+ {
+    body .container {
+        margin:80px 230px;
+    }
+
+    .form-control {
+        width:110%
     }
 }
